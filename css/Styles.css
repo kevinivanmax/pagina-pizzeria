@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+}
+header{
+    background-color: #222222;
+    width: 100%;
+    color: #F3F3F3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    float: right;
+    list-style: none;
+    margin: 10px;
+    line-height: 100px;
+    
+}
+
+main{
+    flex-direction: row;
+    display: flex;
+    background-color: #E5E5E5 ;
+    justify-content: space-around;
+}
+section{
+    align-content: stretch;
+    border-radius: 5px;
+    width: 491px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    
+.PIZZERO{
+    background-image: url(../img/delivery.jpg);
+    color: RED;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 2px;
+    text-align: left;
+    font-family: 24px;
+    text-indent: 20px;
+}
+.ensalada{
+    font-weight: bold;
+   margin-right: 10px;
+   margin-left: 1px;
+    text-align: left;
+    font-family: 24px;
+    background-color: white;
+    line-height: 30px;
+
+}
+.arbol{
+position:relative;
+left: 350px;
+bottom:180px;
+}
+h2{
+    font-size: 20px;
+    text-indent: 35px;
+}
+ol{
+
+}
+.blanco{
+    color:white
+}
+.rojo{
+    color:red;
+    text-align: center;
+}
+footer{
+    background-color: #222222;
+    width: 100%;
+    color: #F3F3F3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    .logo{
+        position: relative;
+        right: 15px;
+        
+
+    }
